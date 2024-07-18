@@ -1,0 +1,33 @@
+-> tree is a data structure which is used to represent naturally hierarchical data.
+// but sometimes data is not hierarchical we might use tree data structure to access data fast
+
+// for eg : auto correct , internal hard disk is a hierarchical data structure , sql query all are stored using tree
+
+-> tree is a logical model where there are nodes , links/edges , 
+-> edges represent the relationship between the data
+
+-> combination of nodes , and relationship are known as graph
+-> tree is special kind of graph
+-> unlike graph tree cannot have cycle
+-> a tree is a acyclic connected graph
+
+
+-------------- Terminologies Of Tree -------------
+
+root node       -> top node
+parent node     -> the first node which i get going towards root node is parent
+child node
+sibling node    -> nodes with same parent
+leaf node       -> Node with no children
+depth of node   -> #of edges required to reach root node from a present node
+                depth of siblings are same
+                depth(node) = 1 + depth(parent node)
+                not defined for tree only for a particular node
+height of node  -> number of edges required to reach the farthest leaf node
+                height of leaf node is 0
+height of tree  -> height of root node is height of entire tree
+
+(height + depth ) of a node = height of tree
+
+
+----------------

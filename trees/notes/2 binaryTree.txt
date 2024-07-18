@@ -1,0 +1,27 @@
+******************** 
+Binary Tree -> tree whose nodes have max two children
+
+usage 
+use to represent hierarchical data structure 
+use to retrieve data quickly , hash map retrieves the data in O(1) but that is average but binary tree retrieves data in log(n) time every time
+
+
+-------- example of binary tree ------
+    o
+   / \
+  o   o
+
+  o - o - o
+
+  o
+
+  o
+   \
+    o
+   / \
+  o   o
+ /
+o      
+
+********* complete binary tree ***********
+complete binary tree -> every node must have two chil except the leaf node before the penultimate level
